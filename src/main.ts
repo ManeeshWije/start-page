@@ -7,7 +7,7 @@ const links: Map<string, string> = new Map([
     ["reddit", "https://www.reddit.com"],
     ["mail", "https://mail.proton.me"],
     ["vercel", "https://vercel.com/maneeshwijes-projects"],
-    ["hacker news", "https://news.ycombinator.com/"],
+    ["hn", "https://news.ycombinator.com/"],
     ["youtube", "https://www.youtube.com"],
     ["x", "https://www.x.com"],
     ["ebay", "https://www.ebay.ca/"],
