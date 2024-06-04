@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: "/",
+    base: "https://start-page-production.up.railway.app",
     preview: {
         port: 8080,
         strictPort: true,
