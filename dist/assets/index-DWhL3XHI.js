@@ -1,0 +1,8 @@
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const s of t.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&r(s)}).observe(document,{childList:!0,subtree:!0});function c(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=c(e);fetch(e.href,t)}})();const a=new Map([["syncthing","http://localhost:8384/"],["railway","https://railway.app/dashboard"],["reddit","https://www.reddit.com"],["mail","https://mail.proton.me"],["vercel","https://vercel.com/maneeshwijes-projects"],["hn","https://news.ycombinator.com/"],["youtube","https://www.youtube.com"],["x","https://www.x.com"],["ebay","https://www.ebay.ca/"],["github","https://www.github.com"],["linkedin","https://www.linkedin.com/feed/"],["amazon","https://www.amazon.ca/"]]);document.querySelector("#app").innerHTML=`
+  <h1>Welcome Maneesh.</h1>
+  <div class="cards">
+    <div class="card0"></div>
+    <div class="card1"></div>
+    <div class="card2"></div>
+  </div>
+`;let i=0;const d=3,l=[document.querySelector(".card0"),document.querySelector(".card1"),document.querySelector(".card2")];a.forEach((n,o)=>{const c=i%d,r=l[c];let e=document.createElement("a");e.innerText=o,e.href=n,r==null||r.appendChild(e),i+=1});
