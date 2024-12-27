@@ -6,10 +6,10 @@ const links: Map<string, string> = new Map([
     ["railway", "https://railway.app/dashboard"],
     ["reddit", "https://www.reddit.com"],
     ["mail", "https://mail.proton.me"],
-    ["hn", "https://news.ycombinator.com/"],
-    ["youtube", "https://www.youtube.com"],
+    ["aws", "https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2"],
+    ["goodreads", "https://www.goodreads.com/"],
     ["github", "https://www.github.com"],
-    ["x", "https://www.x.com"],
+    ["hn", "https://news.ycombinator.com/"],
     ["linkedin", "https://www.linkedin.com/feed/"],
 ]);
 
